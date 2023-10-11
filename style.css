@@ -1,0 +1,91 @@
+css
+/* Estilos gerais */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+
+main {
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Estilos do rodapé */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
